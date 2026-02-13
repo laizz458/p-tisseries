@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Délices Sucrés</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍰 Délices Sucrés</h1>
+    <p>Clique sur une recette pour voir les étapes</p>
+</header>
+
+<section class="grid">
+
+    <div class="card" onclick="showRecipe('brownie')">
+        <h2>🍫 Brownies</h2>
+    </div>
+
+    <div class="card" onclick="showRecipe('crepes')">
+        <h2>🥞 Crêpes</h2>
+    </div>
+
+    <div class="card" onclick="showRecipe('gateau')">
+        <h2>🎂 Gâteau au chocolat</h2>
+    </div>
+
+</section>
+
+<section class="recipe" id="recipe">
+    <h2>📖 Recette</h2>
+    <div id="recipeContent">Clique sur une pâtisserie pour voir la recette.</div>
+</section>
+
+<footer>
+    <p>© 2026 Délices Sucrés</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
